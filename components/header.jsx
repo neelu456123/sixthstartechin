@@ -51,9 +51,11 @@ const Navbars = () => {
 
         <div className="items-center hidden md:flex space-x-4  max-w-64">
           
-          <button href="" className="px-5 py-2.5 text-sm font-medium  text-white bg-black  hover:bg-gray-900 dark:bg-white dark:text-black dark:hover:bg-gray-100 rounded-full transition-colors">
-            Contact us
-          </button>
+        <NavLink href="/Contact-us">
+  <button className="px-5 py-2.5 text-sm font-medium text-white bg-black hover:bg-gray-900 dark:bg-white dark:text-black dark:hover:bg-gray-100 rounded-full transition-colors">
+    Contact Us
+  </button>
+</NavLink>  
         </div>
 
         {/* Mobile Menu Button */}
@@ -84,9 +86,11 @@ const Navbars = () => {
             </NavLink>
             <div className="items-center hidden md:flex space-x-4">
               
-              <button className="px-5 py-2.5 text-sm font-medium text-white bg-black hover:bg-gray-900 dark:bg-white dark:text-black dark:hover:bg-gray-100 rounded-full transition-colors">
-               Contact us
-              </button>
+            <NavLink href="/Contact-us">
+  <button className="px-5 py-2.5 text-sm font-medium text-white bg-black hover:bg-gray-900 dark:bg-white dark:text-black dark:hover:bg-gray-100 rounded-full transition-colors">
+    Contact Us
+  </button>
+</NavLink>  
             </div>
           </div>
         </>
