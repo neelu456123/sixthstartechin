@@ -84,23 +84,23 @@ export function TimelineDemo() {
           <div className="mb-8 features-cloud">
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
+              ✅ Private IP address
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+              ✅  Password protected directories
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
+              ✅ SSL certificates
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
+              ✅   DDOS protection
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
+              ✅   Data mitigation. 
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
