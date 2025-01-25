@@ -100,4 +100,36 @@ padding-top: 50px;
     .first-name{
         width: 89%;
     }
-}
+
+    .nav-tabs {
+        display: flex;
+        justify-content: center; /* Center the tabs horizontally */
+        align-items: center; /* Vertically align tabs */
+        border: none;
+        gap: 10px; /* Adds spacing between tabs */
+        width: auto;
+        padding-left: 0px;
+        
+      }
+      
+      .nav-tabs .nav-link {
+        display: inline-block; /* Adjusts the width to fit the text */
+        border: 2px solid black; /* Adds a border around the text */
+        border-radius: 10px; /* Rounded corners */
+        padding: 5px 10px; /* Small padding for spacing inside the tabs */
+        text-align: center; /* Centers the text */
+        background-color: white; /* Default background color */
+        color: black; /* Default text color */
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+      
+      }
+      
+      .nav-tabs .nav-link.active {
+        background-color: black; /* Background color for active tab */
+        color: white; /* Text color for active tab */
+      }
+      
+      .nav-tabs .nav-link:hover {
+        background-color: #f0f0f0; /* Background color on hover */
+        color: black; /* Text color on hover */
+      }}
