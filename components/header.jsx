@@ -81,14 +81,17 @@ const Navbars = () => {
             <NavLink href="/Ssl-Certificate" onClick={() => setIsOpen(false)}>
               SSl Certificate
             </NavLink>
-            <NavLink href="/archive" onClick={() => setIsOpen(false)}>
+            <NavLink href="https://sixthstartech.com/mail-services/carbonio-mail" onClick={() => setIsOpen(false)}>
               Carbonio Mail
+            </NavLink>
+            <NavLink href="/Contact-us" onClick={() => setIsOpen(false)}>
+            Contact Us
             </NavLink>
             <div className="items-center hidden md:flex space-x-4">
               
             <NavLink href="/Contact-us">
   <button className="px-5 py-2.5 text-sm font-medium text-white bg-black hover:bg-gray-900 dark:bg-white dark:text-black dark:hover:bg-gray-100 rounded-full transition-colors">
-    Contact Us
+ 
   </button>
 </NavLink>  
             </div>
