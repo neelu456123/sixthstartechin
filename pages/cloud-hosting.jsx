@@ -10,6 +10,7 @@ import { BackgroundBeams } from '../components/uI/background-beams';
 import { TimelineDemo } from '../components/line';
 import InfiniteCarousel from '../components/uI/slider';
 import Navbars from '../components/header';
+import Footer from '../components/Footer';
 // import Header from '../components/header';
 // import HeaderNew from '../components/header';
 // import HeaderNew from '../components/header';
@@ -244,7 +245,9 @@ const cloudhosting = () => {
  <div className='client-caraousel-cloudhosting'>
   <InfiniteCarousel/>
  </div>
- 
+ <div>
+  <Footer/>
+ </div>
     </main>
   )
 }

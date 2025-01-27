@@ -6,6 +6,7 @@ import { Tabs } from 'react-bootstrap';
 import { Tab } from 'react-bootstrap';
 import { CardHoverEffectDemo } from "../components/Card-new";
 import Banner3D from "../components/uI/home-testimonial";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -242,6 +243,9 @@ export default function Home() {
     <div className='col-sm'> <p>Try for 45 Days Risk-Free</p></div>
   </div>
 </div>
+<div>
+  <Footer/>
+ </div>
       </div>
 
     

@@ -4,7 +4,7 @@ import { WorldMap } from '../components/uI/world-map';
 import { motion } from "motion/react";
 
 import ContactUsForm from './Form/contactus';
-
+import Footer from '../components/Footer';
 
 export default function ContactUs() {
   return (
@@ -134,7 +134,9 @@ export default function ContactUs() {
             </div>
 
       </div>
-      
+      <div>
+  <Footer/>
+ </div>
     </div>
   )
 }

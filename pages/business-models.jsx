@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 export default function About() {
     return (
       <div>
@@ -83,6 +84,9 @@ Sixthstar has been, since its first day, dedicated to defining projects through 
         <img src="https://res.cloudinary.com/daggx9p24/image/upload/v1735360573/Untitled_design_9_qzwmcs.png" alt="" />
       </div>
       </div>
+      <div>
+  <Footer/>
+ </div>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Timeline from "../components/Timeliner";
+import Footer from "../components/Footer";
 export default function About() {
     return (
       <div>
@@ -144,7 +145,9 @@ SixthStar Technology has a huge history of providing high-quality services and p
 
 
 
-
+<div>
+  <Footer/>
+ </div>
 
       </div>
     );

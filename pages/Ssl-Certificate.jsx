@@ -7,7 +7,7 @@ import { CardBody, CardContainer, CardItem } from "../components/uI/3d-card";
 import Image from "next/image";
 import Link from "next/link";
 import { HeroParallaxDemo } from "../components/hero";
-
+import Footer from "../components/Footer";
 
 
 
@@ -208,7 +208,9 @@ export default function sslCertificate() {
     </div>
   </div>
 </div>
-
+<div>
+  <Footer/>
+ </div>
         </div>
     );
   }

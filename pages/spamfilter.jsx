@@ -5,7 +5,7 @@ import { BackgroundGradient } from '../components/uI/background-gradient'
 import { IconAppWindow } from '@tabler/icons-react'
 import Image from "next/image";
 import { WobbleCard } from '../components/uI/wobble-card'
-
+import Footer from '../components/Footer'
 
 
 
@@ -171,7 +171,9 @@ Sixth Star offers email filter at an affordable price that abruptly identifies s
     </div>
     </div>
 
-
+    <div>
+  <Footer/>
+ </div>
 
    </div>
         

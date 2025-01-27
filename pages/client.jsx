@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Footer from '../components/Footer'
 
 export default function clients() {
   return (
@@ -155,6 +156,9 @@ export default function clients() {
 </section>
 
       </div>
+      <div>
+  <Footer/>
+ </div>
     </div>
 
   )
